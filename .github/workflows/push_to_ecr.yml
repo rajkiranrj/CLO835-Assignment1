@@ -24,7 +24,7 @@ jobs:
         env: 
           ECR_REGISTRY: ${{steps.login-ecr.outputs.registry}}
           ECR_REPOSITORY: imagesrepo
-          IMAGE_TAG: cat_imagev1
+          IMAGE_TAG: cat_imagev2.0
       # Runs a set of commands
         run: |
           cd cats/
@@ -44,7 +44,7 @@ jobs:
         env: 
           ECR_REGISTRY: ${{steps.login-ecr.outputs.registry}}
           ECR_REPOSITORY: imagesrepo
-          IMAGE_TAG: dog_imagev1
+          IMAGE_TAG: dog_imagev2.0
       # Runs a set of commands
         run: |
           cd dogs/
