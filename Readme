@@ -1,9 +1,20 @@
 #Create Dockerfile, build docker image and deploy docker container on Amazon Linux EC2.
-
 1. Understanding the containerization concept and its implementation on Linux OS to support efficient application releases cycle.
 2. Evaluating the applicability of containerization approach and viability of publicly/privately hosted containers orchestration platform for the business needs of the organization
 
-#Architecture:
+
+# Services & Tools used:
+1. Configuring GitHub Actions to perform automatic build of container images and to push the images to Amazon ECR.
+2. Running cats and dogs applications on Amazon EC2.
+3. Updating the application and re-deploying it on Amazon EC2
+4. GitHub to store your application’s code.
+5. GitHub actions to create docker images and push them to Amazon ECR.
+6. Amazon ECR to securely store your container images.
+7. Cloud 9 IDE or your local environment to develop your application and build container images
+8. Docker CLI to work with docker containers.
+9. AWS EC2 to host your containerized application.
+10. AWS IAM to grant EC2 instance an access to Amazon ECR bucket.
+11. Terraform to deploy the infrastructure
 
 
 
