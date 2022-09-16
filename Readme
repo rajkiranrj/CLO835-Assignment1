@@ -1,1 +1,9 @@
+# Create Dockerfile, build docker image and deploy docker container on Amazon Linux EC2.
+
+1. Understanding the containerization concept and its implementation on Linux OS to support efficient application releases cycle.
+2. Evaluating the applicability of containerization approach and viability of publicly/privately hosted containers orchestration platform for the business needs of the organization
+
+# Architecture:
+
+
 
